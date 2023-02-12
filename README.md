@@ -70,3 +70,14 @@ We will find ourselves doing this often in the later part of this course.
 
 <br>
 
+# Day 4 - Our First Program
+
+Today we will write our first ever python program from scratch. It will consist of a bunch of print statements. **print** can be used to print something on the console in python.
+
+## Quick Quiz
+
+Write a program to print a poem in Python. Choose the poem of your choice.
+```py
+print("---Your poem here---")
+```
+Please make sure you attempt this. Might be easy for some of you but please finish each and every task.
