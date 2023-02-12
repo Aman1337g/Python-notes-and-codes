@@ -2,7 +2,7 @@ print("Hello World")
 print(5)
 
 ''' 
-OUPUT
+OUTPUT
 
 Hello World
 5

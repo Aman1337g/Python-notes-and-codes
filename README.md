@@ -4,7 +4,7 @@ Programming is a way for us to tell computers what to do. Computer is a very dum
 If I ask you to calculate 5+6, you will immediately say 11. 
 How about 23453453 X 56456?
 
-You will start searching for a calculator or jump to a new tab to calculate the same. 
+You will start searching for a calculator or jump to a new tab to calculate the same. <br>
 This 100 days of code series will help you learn python from starting to the end. We will start from 0 and by the time we end this course, I promise you will be a Job ready Python developer!
 
 ## What is Python?
@@ -32,7 +32,15 @@ This 100 days of code series will help you learn python from starting to the end
 
 <br>
 
-# Day 2 - Modules and pip in Python!
+# Day 2 - Why I love python (And you will too...)
+
+## What can Python do for you?
+
+I want to show you some python programs which will surely inspire you to create your own versions of the same as we progress through this tutorial. Do not try to recreate them just yet if you are a beginner and just started working on Python. We will make progress gradually trust me.
+
+<br>
+
+# Day 3 - Modules and pip in Python!
 
 Module is like a code library which can be used to borrow code written by somebody else in our python program. There are two types of modules in python:
 
@@ -58,7 +66,7 @@ df = pandas.read_csv('words.csv')
 print(df) # This will display first few rows from the words.csv file
 ```
 Similarly we can install other modules and look into their documentations for usage instructions.<br>
-We will find ourselved doing this often in the later part of this course
+We will find ourselves doing this often in the later part of this course.
 
 <br>
 
