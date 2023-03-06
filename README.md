@@ -1115,7 +1115,7 @@ The most common technique to emulate a do-while loop in Python is to use an infi
 while True:
   number = int(input("Enter a positive number: "))
   print(number)
-  if not number > 0:
+  if not number > 0: # comparsion operator has higher precedence than logical operator
     break
 ```
 Output
@@ -1129,6 +1129,55 @@ Enter a positive number: -1
 ```
 ### Explanation
 This loop uses True as its formal condition. This trick turns the loop into an infinite loop. Before the conditional statement, the loop runs all the required processing and updates the breaking condition. If this condition evaluates to true, then the break statement breaks out of the loop, and the program execution continues its normal path.
+
+<br>
+
+# Day 18 - break and continue
+
+## break statement
+The break statement enables a program to skip over a part of the code. A break statement **terminates the very loop it lies within**.
+
+### Example
+```py       
+for i in range(1,101,1):
+    print(i ,end=" ")
+    if(i==50):
+        break
+    else:
+        print("Mississippi")
+print("Thank you")
+```
+Output
+```
+1 Mississippi
+2 Mississippi
+3 Mississippi
+4 Mississippi
+5 Mississippi
+.
+.
+.
+50 Thank you
+```
+
+## Continue Statement
+The continue statement **skips the rest of the loop statements** and causes the next iteration to occur.
+
+### Example
+```py
+for i in [2,3,4,6,8,0]:
+    if (i%2!=0):
+        continue
+    print(i)
+```
+Output
+```
+2
+4
+6
+8
+0
+```
 
 <br>
 
