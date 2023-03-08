@@ -1968,3 +1968,9 @@ Output
 ```
 First occurrence of 3 is at index : 3
 ```
+
+# Day 25 - Exercise 3
+
+Create a program capable of displaying questions to the user like KBC(Kaun Banega Crorepati). Use List data type to store the questions and their correct answers. Display the final amount the person is taking home after playing the game.
+
+Create a pull request in Exercise 3 folder as [ **your_name.py** ] to submit your answers.
