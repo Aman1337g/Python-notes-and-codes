@@ -43,6 +43,8 @@ Taking a string and checking if it's a palindrome or not
 Hello user, Welcome!!
 '''
 
+# Example
+
 
 def add(num1, num2):
     """
