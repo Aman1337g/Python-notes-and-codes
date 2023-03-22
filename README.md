@@ -1969,7 +1969,7 @@ Output
 First occurrence of 3 is at index : 3
 ```
 
-# Day 25 - Exercise 3
+# Day 25 - Exercise 3 : Kaun Banega Crorepati
 
 Create a program capable of displaying questions to the user like KBC(Kaun Banega Crorepati). Use List data type to store the questions and their correct answers. Display the final amount the person is taking home after playing the game.
 
@@ -2831,6 +2831,22 @@ When an exception occurs, the rest of the code inside the ```try``` block is ski
 The ```except``` block catches the user-defined ```InvalidAgeException``` exception and statements inside the ```except``` block are executed.
 
 This is useful because sometimes we might want to do something when a particular exception is raised. For example, sending an error report to the admin, calling an api, etc.
+
+<br>
+
+# Day 37 - Exercise 4 : Secret Code Language
+
+Write a python program to translate a message into secret code language. Use the rules below to translate normal English into secret code language
+
+## Coding:
+if the word contains atleast 3 characters, remove the first letter and append it at the end now append three random characters at the starting and the end else: simply reverse the string
+
+## Decoding:
+if the word contains less than 3 characters, reverse it else: remove 3 random characters from start and end. Now remove the last letter and append it to the beginning
+
+### **Your program should ask whether you want to code or decode**
+
+Create a pull request in Exercise 4 folder as [ **your_name.py** ] to submit your answers.
 
 <br>
 
