@@ -2750,3 +2750,87 @@ This block is always executed.
 
 <br>
 
+# Day 36 - Custom Errors
+
+## Raising Custom errors
+In python, we can raise custom errors by using the ```raise``` keyword.
+### Example:
+```py
+salary = int(input("Enter salary amount: "))
+if not 2000 < salary < 5000:
+    raise ValueError("Not a valid salary")
+```
+Output 1:
+```
+Enter salary amount: 3000
+```
+Output 2:
+```
+Enter salary amount: 100
+Traceback (most recent call last):
+  File "c:\Users\ankit\OneDrive\Desktop\GitHub\Python-notes-and-codes\30_Raising-custom-errors-in-Python.py", line 18, in <module>
+    raise ValueError("Not a valid salary")
+ValueError: Not a valid salary
+```
+In the previous tutorial, we learned about different built-in exceptions in Python and why it is important to handle exceptions. However, sometimes we may need to create our own custom exceptions that serve our purpose.
+
+## Defining Custom Exceptions
+In Python, we can define custom exceptions by creating a new class that is derived from the built-in Exception class.
+
+Here's the syntax to define custom exceptions:
+```py
+class CustomError(Exception):
+  # code ...
+  pass
+
+try:
+  # code ...
+
+except CustomError:
+  # code...
+```
+### Example:
+```py
+# define Python user-defined exceptions
+class InvalidAgeException(Exception):
+    "Raised when the input value is less than 18"
+    pass
+
+# you need to guess this number
+number = 18
+
+try:
+    input_num = int(input("Enter a number: "))
+    if input_num < number:
+        raise InvalidAgeException
+    else:
+        print("Eligible to Vote")
+        
+except InvalidAgeException:
+    print("Exception occurred: Invalid Age")
+```
+
+Output
+
+If the user input ```input_num``` is greater than 18,
+```
+Enter a number: 45
+Eligible to Vote
+```
+If the user input ```input_num``` is smaller than 18,
+```
+Enter a number: 14
+Exception occurred: Invalid Age
+```
+In the above example, we have defined the custom exception ```InvalidAgeException``` by creating a new class that is derived from the built-in ```Exception``` class.
+
+Here, when ```input_num``` is smaller than 18, this code generates an exception.
+
+When an exception occurs, the rest of the code inside the ```try``` block is skipped.
+
+The ```except``` block catches the user-defined ```InvalidAgeException``` exception and statements inside the ```except``` block are executed.
+
+This is useful because sometimes we might want to do something when a particular exception is raised. For example, sending an error report to the admin, calling an api, etc.
+
+<br>
+
