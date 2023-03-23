@@ -1,7 +1,7 @@
 import os
 import random
 import pygame
-author = 'CodeWithHarry'
+author = 'AmanKumarGupta'
 
 # Importing The Modules
 
@@ -28,7 +28,7 @@ screen_height = 600
 gameWindow = pygame.display.set_mode((screen_width, screen_height))
 
 # Game Title
-pygame.display.set_caption("Snake By CodeWithHarry")
+pygame.display.set_caption("Snake By AmanKumarGupta")
 pygame.display.update()
 
 # Music
