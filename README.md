@@ -1,3 +1,93 @@
+# TABLE OF CONTENTS
+
+|Day|Topic|
+|---|---|
+|01|[What is Programming and Python?](#day-1---what-is-programming-and-python)|
+|02|[Why I love python (And you will too...)](#day-2---why-i-love-python-and-you-will-too)|
+|03|[Modules and pip in Python!](#day-3---modules-and-pip-in-python)|
+|04|[Our First Program](#day-4---our-first-program)|
+|5|[Comments, Escape sequence & Print in Python](#day-5---comments-escape-sequence--print-in-python)|
+|6|[Variables and Data Types](#day-6---variables-and-data-types)|
+|7|[Exercise 1: Calculator using Python](#day-07---exercise-1-calculator-using-python)|
+|8|[Typecasting in python](#day-08---typecasting-in-python)|
+|9|[Taking User Input in python](#day-09---taking-user-input-in-python)|
+|10|[Strings](#day-10---strings)|
+|11|[String Slicing & Operations on String](#day-11---string-slicing--operations-on-string)|
+|12|[String methods](#day-12---string-methods)|
+|13|[If Else Conditionals](#day-13---if-else-conditionals)|
+|14|[Excersice 2: Good Morning Sir](#day-14---excersice-2-good-morning-sir)|
+|15|[Match Case Statements](#day-15---match-case-statements)|
+|16|[Introduction to Loops](#day-16---introduction-to-loops)|
+|17|[Python while Loop](#day-17---python-while-loop)|
+|18|[break and continue](#day-18---break-and-continue)|
+|19|[Python Functions](#day-19---python-functions)|
+|20|[Function Arguments and return statement](#day-20---function-arguments-and-return-statement)|
+|21|[Introduction to Lists](#day-21---introduction-to-lists)|
+|22|[List Methods](#day-22---list-methods)|
+|23|[Introduction to Tuples](#day-23---introduction-to-tuples)|
+|24|[Operations on Tuples](#day-24---operations-on-tuples)|
+|25|[Exercise 3 : Kaun Banega Crorepati](#day-25---exercise-3--kaun-banega-crorepati)|
+|26|[f strings](#day-26---f-strings)|
+|27|[Docstrings](#day-27---docstrings)|
+|28|[Recursion in python](#day-28---recursion-in-python)|
+|29|[Python Sets](#day-29---python-sets)|
+|30|[Set Methods in Python](#day-30---set-methods-in-python)|
+|31|[Python Dictionaries](#day-31---python-dictionaries)|
+|32|[Dictionary Methods](#day-32---dictionary-methods)|
+|33|[Python: **else** in Loop](#day-33---python-else-in-loop)|
+|34|[Exception Handling](#day-34---exception-handling)|
+|35|[Finally keyword](#day-35---finally-keyword)|
+|36|[Custom Errors](#day-36---custom-errors)|
+|37|[Exercise 4 : Secret Code Language](#day-37---exercise-4--secret-code-language)|
+|38|[Short Hand if else](#day-38---short-hand-if-else)|
+|39|[Enumerate](#day-39---enumerate)|
+|40|[Virtual Environment](#day-40---virtual-environment)|
+|41|[How import works](#day-41---how-import-works)|
+|42|[```if "__name__ == "__main__"``` in Python](#day-42---if-__name__--__main__-in-python)|
+|43|[```os``` Module in Python](#day-43---os-module-in-python)|
+|44|[local vs global variables](#day-44---local-vs-global-variables)|
+|45|[File IO in Python](#day-45---file-io-in-python)|
+|46|[](#day46)|
+|47|[](#day47)|
+|48|[](#day48)|
+|49|[](#day49)|
+|50|[](#day50)|
+|51|[](#day51)|
+|52|[](#day52)|
+|53|[](#day53)|
+|54|[](#day54)|
+|55|[](#day55)|
+|56|[](#day56)|
+|57|[](#day57)|
+|58|[](#day58)|
+|59|[](#day59)|
+|60|[](#day60)|
+|61|[](#day61)|
+|62|[](#day62)|
+|63|[](#day63)|
+|64|[](#day64)|
+|65|[](#day65)|
+|66|[](#day66)|
+|67|[](#day67)|
+|68|[](#day68)|
+|69|[](#day69)|
+|70|[](#day70)|
+|71|[](#day71)|
+|72|[](#day72)|
+|73|[](#day73)|
+|74|[](#day74)|
+|75|[](#day75)|
+|76|[](#day76)|
+|77|[](#day77)|
+|78|[](#day78)|
+|79|[](#day79)|
+|80|[](#day80)|
+|81|[](#day81)|
+|82|[](#day82)|
+
+
+
+
 # Day 1 - What is Programming and Python?
 ## What is Programming
 Programming is a way for us to tell computers what to do. Computer is a very dumb machine and it only does what we tell it to do. Hence we learn programming and tell computers to do what we are very slow at - computation. 
@@ -30,6 +120,8 @@ This 100 days of code series will help you learn python from starting to the end
 -   It can be used to handle databases.
 -   It is used in business and accounting to perform complex mathematical operations along with quantitative and qualitative analysis.
 
+[**Jump to Index**](#table-of-contents)
+
 <br>
 
 # Day 2 - Why I love python (And you will too...)
@@ -37,6 +129,8 @@ This 100 days of code series will help you learn python from starting to the end
 ## What can Python do for you?
 
 I want to show you some python programs which will surely inspire you to create your own versions of the same as we progress through this tutorial. Do not try to recreate them just yet if you are a beginner and just started working on Python. We will make progress gradually trust me. [Link](https://github.com/Aman1337g/Python-notes-and-codes/tree/main/Projects)
+
+[**Jump to Index**](#table-of-contents)
 
 <br>
 
@@ -68,6 +162,8 @@ print(df) # This will display first few rows from the words.csv file
 Similarly we can install other modules and look into their documentations for usage instructions.<br>
 We will find ourselves doing this often in the later part of this course.
 
+[**Jump to Index**](#table-of-contents)
+
 <br>
 
 # Day 4 - Our First Program
@@ -81,6 +177,8 @@ Write a program to print a poem in Python. Choose the poem of your choice.
 print("---Your poem here---")
 ```
 Please make sure you attempt this. Might be easy for some of you but please finish each and every task.
+
+[**Jump to Index**](#table-of-contents)
 
 <br>
 
@@ -181,6 +279,8 @@ print(object(s), sep=separator, end=end, file=file, flush=flush)
 
 **Parameters 2 to 4 are optional**.
 
+[**Jump to Index**](#table-of-contents)
+
 <br>
 
 # Day 6 - Variables and Data Types
@@ -256,6 +356,8 @@ Output:
 {'name': 'Sakshi', 'age': 20, 'canVote': True}
 ```
 
+[**Jump to Index**](#table-of-contents)
+
 <br>
 
 # Day 07 - Exercise 1: Calculator using Python
@@ -298,6 +400,8 @@ Here 'n' and 'm' are two variables in which the integer value is being stored. V
 ### Exercise 1 - Create a Calculator
 Create a calculator capable of performing addition, subtraction, multiplication and division operations on two numbers. Your program should format the output in a readable manner!<br>
 Do it and create a pull request with your name and add the codes into **Exercise 1** folder.
+
+ [**Jump to Index**](#table-of-contents)
 
 <br>
 
@@ -361,6 +465,8 @@ Ouput:
 <class 'float'>
 ```
 
+[**Jump to Index**](#table-of-contents)
+
 <br>
 
 # Day 09 - Taking User Input in python
@@ -390,6 +496,8 @@ Output:
 Enter the name: Aman Kumar Gupta
 Aman Kumar Gupta
 ```
+
+[**Jump to Index**](#table-of-contents)
 
 <br>
 
@@ -444,6 +552,8 @@ for character in name:
     print(character)
 ```
 Above code prints all the characters in the string name one by one!
+
+[**Jump to Index**](#table-of-contents)
 
 <br>
 
@@ -513,6 +623,8 @@ C
 D
 E
 ```
+
+[**Jump to Index**](#table-of-contents)
 
 <br>
 
@@ -826,6 +938,8 @@ Output:
 He'S Name Is Dan. Dan Is An Honest Man.
 ```
 
+[**Jump to Index**](#table-of-contents)
+
 <br>
 
 # Day 13 - If Else Conditionals
@@ -915,6 +1029,8 @@ Output:
 Number is between 11-20
 ```
 
+[**Jump to Index**](#table-of-contents)
+
 <br>
 
 # Day 14 - Excersice 2: Good Morning Sir
@@ -932,6 +1048,8 @@ print(timestamp)
 # https://docs.python.org/3/library/time.html#time.strftime
 ```
 Likewise Exercise 1, create a pull request with your answers as [ **your_name.py** ] to Exercise 2 folder.😄
+
+[**Jump to Index**](#table-of-contents)
 
 <br>
 
@@ -979,6 +1097,8 @@ Output:
 ```
 x % 2 == 0 and case is 4
 ```
+
+[**Jump to Index**](#table-of-contents)
 
 <br>
 
@@ -1057,6 +1177,8 @@ Output:
 
 Explore about third parameter of range (ie range(x, y, z))
 
+[**Jump to Index**](#table-of-contents)
+
 <br>
 
 # Day 17 - Python while Loop
@@ -1130,6 +1252,8 @@ Enter a positive number: -1
 ### Explanation
 This loop uses True as its formal condition. This trick turns the loop into an infinite loop. Before the conditional statement, the loop runs all the required processing and updates the breaking condition. If this condition evaluates to true, then the break statement breaks out of the loop, and the program execution continues its normal path.
 
+[**Jump to Index**](#table-of-contents)
+
 <br>
 
 # Day 18 - break and continue
@@ -1179,6 +1303,8 @@ Output
 0
 ```
 
+[**Jump to Index**](#table-of-contents)
+
 <br>
 
 # Day 19 - Python Functions
@@ -1222,6 +1348,8 @@ Output:
 ```
 Hello, Sam Wilson
 ```
+
+[**Jump to Index**](#table-of-contents)
 
 <br>
 
@@ -1334,6 +1462,8 @@ Output:
 ```
 Hello, James Buchanan Barnes
 ```
+
+[**Jump to Index**](#table-of-contents)
 
 <br>
 
@@ -1543,6 +1673,7 @@ Output:
 ['Sarah', 'Bruno', 'Anastasia']
 ```
 
+[**Jump to Index**](#table-of-contents)
 <br>
 
 # Day 22 - List Methods
@@ -1714,6 +1845,8 @@ Output:
 ```
 ['voilet', 'indigo', 'blue', 'green', 'yellow', 'orange', 'red']
 ```
+
+[**Jump to Index**](#table-of-contents)
 
 <br>
 
@@ -1887,6 +2020,8 @@ Output:
 ```
 Here, jump index is 3. Hence it prints every 3rd element within given index.
 
+[**Jump to Index**](#table-of-contents)
+
 <br>
 
 # Day 24 - Operations on Tuples
@@ -1969,6 +2104,10 @@ Output
 First occurrence of 3 is at index : 3
 ```
 
+[**Jump to Index**](#table-of-contents)
+
+<br>
+
 # Day 25 - Exercise 3 : Kaun Banega Crorepati
 
 Create a program capable of displaying questions to the user like KBC(Kaun Banega Crorepati). Use List data type to store the questions and their correct answers. Display the final amount the person is taking home after playing the game.
@@ -2020,6 +2159,8 @@ Output:
 ```
 60
 ```
+
+[**Jump to Index**](#table-of-contents)
 
 <br>
 
@@ -2137,6 +2278,8 @@ Namespaces are one honking great idea -- let's do more of those!
 import this
 ```
 
+[**Jump to Index**](#table-of-contents)
+
 <br>
 
 # Day 28 - Recursion in python
@@ -2163,6 +2306,8 @@ Output:
 number:  7
 Factorial:  5040
 ```
+
+[**Jump to Index**](#table-of-contents)
 
 <br>
 
@@ -2199,6 +2344,8 @@ Carla
 19
 5.9
 ```
+
+[**Jump to Index**](#table-of-contents)
 
 <br>
 
@@ -2473,6 +2620,8 @@ Output:
 Carla is present.
 ```
 
+[**Jump to Index**](#table-of-contents)
+
 <br>
 
 # Day 31 - Python Dictionaries
@@ -2538,6 +2687,8 @@ Output:
 ```
 dict_items([('name', 'Karan'), ('age', 19), ('eligible', True)])
 ```
+
+[**Jump to Index**](#table-of-contents)
 
 <br>
 
@@ -2629,6 +2780,8 @@ Output:
 NameError: name 'info' is not defined
 ```
 
+[**Jump to Index**](#table-of-contents)
+
 <br>
 
 # Day 33 - Python: **else** in Loop
@@ -2661,6 +2814,8 @@ iteration no 5 in for loop
 else block in loop
 Out of loop
 ```
+
+[**Jump to Index**](#table-of-contents)
 
 <br>
 
@@ -2695,6 +2850,8 @@ Output:
 Enter an integer: 6.022
 Number entered is not an integer.
 ```
+
+[**Jump to Index**](#table-of-contents)
 
 <br>
 
@@ -2747,6 +2904,8 @@ Number entered is not an integer.
 This block is always executed.
 1
 ```
+
+[**Jump to Index**](#table-of-contents)
 
 <br>
 
@@ -2832,6 +2991,8 @@ The ```except``` block catches the user-defined ```InvalidAgeException``` except
 
 This is useful because sometimes we might want to do something when a particular exception is raised. For example, sending an error report to the admin, calling an api, etc.
 
+[**Jump to Index**](#table-of-contents)
+
 <br>
 
 # Day 37 - Exercise 4 : Secret Code Language
@@ -2847,6 +3008,8 @@ if the word contains less than 3 characters, reverse it else: remove 3 random ch
 ### **Your program should ask whether you want to code or decode**
 
 Create a pull request in Exercise 4 folder as [ **your_name.py** ] to submit your answers.
+
+[**Jump to Index**](#table-of-contents)
 
 <br>
 
@@ -2891,6 +3054,8 @@ else:
 ## Conclusion
 The shorthand syntax can be a convenient way to write simple ```if-else``` statements, especially when you want to assign a value to a variable based on a condition.
 However, it's not suitable for more complex situations where you need to execute multiple statements or perform more complex logic. In those cases, it's best to use the full ```if-else``` syntax.
+
+[**Jump to Index**](#table-of-contents)
 
 <br>
 
@@ -2967,6 +3132,8 @@ Output:
 4 o
 ```
 
+[**Jump to Index**](#table-of-contents)
+
 <br>
 
 # Day 40 - Virtual Environment
@@ -3013,6 +3180,8 @@ To install the packages listed in the requirements.txt file, you can use the pip
 pip install -r requirements.txt
 ```
 Using a virtual environment and a **requirements.txt** file can help you manage the dependencies for your Python projects and ensure that your projects are portable and can be easily set up on a new machine.
+
+[**Jump to Index**](#table-of-contents)
 
 <br>
 
@@ -3080,6 +3249,8 @@ This will output a list of all the names defined in the math module, including f
 
 In summary, the import statement in Python allows you to access the functions and variables defined in a module from within your current script. You can import the entire module, specific functions or variables, or use the ```*``` wildcard to import everything. You can also use the ```as``` keyword to rename a module, and the ```dir``` function to view the contents of a module.
 
+[**Jump to Index**](#table-of-contents)
+
 <br>
 
 # Day 42 - ```if "__name__ == "__main__"``` in Python
@@ -3118,6 +3289,8 @@ This can be useful if you have code that you want to reuse in multiple scripts, 
 It's important to note that the ```if __name__ == "__main__"``` idiom is not required to run a Python script. You can still run a script without it by simply calling the functions or running the code you want to execute directly. However, the ```if __name__ == "__main__"``` idiom can be a useful tool for organizing and separating code that should be run directly from code that should be imported and used as a module.
 
 In summary, the ```if __name__ == "__main__"``` idiom is a common pattern used in Python scripts to determine whether the script is being run directly or being imported as a module into another script. It allows you to reuse code from a script by importing it as a module into another script, without running the code in the original script.
+
+[**Jump to Index**](#table-of-contents)
 
 <br>
 
@@ -3184,6 +3357,8 @@ f.close()
 ```
 In summary, the ```os``` module in Python is a built-in library that provides a wide variety of functions for interacting with the operating system. It allows you to perform tasks such as reading and writing files, interacting with the file system, and running system commands.
 
+[**Jump to Index**](#table-of-contents)
+
 <br>
 
 # Day 44 - local vs global variables
@@ -3233,6 +3408,8 @@ In this example, we used the ```global``` keyword to declare that we want to mod
 It's important to note that it's generally considered good practice to avoid modifying global variables from within functions, as it can lead to unexpected behavior and make your code harder to debug.
 
 I hope this tutorial has helped clarify the differences between local and global variables and how to use the ```global``` keyword in Python.
+
+[**Jump to Index**](#table-of-contents)
 
 <br>
 
@@ -3300,6 +3477,8 @@ Alternatively, you can use the ```with``` statement to automatically close the f
 with open('myfile.txt', 'r') as f:
     # ... do something with the file
 ```
+
+[**Jump to Index**](#table-of-contents)
 
 <br>
 
