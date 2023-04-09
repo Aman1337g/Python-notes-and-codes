@@ -50,7 +50,7 @@
 |46|[read(), readlines() and other methods](#day-46---read-readlines-and-other-methods)|
 |47|[seek(), tell() and other functions](#day-47---seek-tell-and-other-functions)|
 |48|[Lambda Functions in Python](#day-48---lambda-functions-in-python)|
-|49|[](#day49)|
+|49|[Map, Filter and Reduce](#day-49---map-filter-and-reduce)|
 |50|[](#day50)|
 |51|[](#day51)|
 |52|[](#day52)|
@@ -3599,6 +3599,73 @@ lambda x, y: print(f'{x} * {y} = {x * y}')
 In the above example, the lambda function includes a print statement, but it is still limited to a single expression.
 
 Lambda functions are often used in conjunction with higher-order functions, such as **map**, **filter**, and **reduce** which we will look into later.
+
+[**Jump to Index**](#table-of-contents)
+
+<br>
+
+# Day 49 - Map, Filter and Reduce
+
+In Python, the ```map```, ```filter```, and ```reduce``` functions are built-in functions that allow you to apply a function to a sequence of elements and return a new sequence. These functions are known as higher-order functions, as they take other functions as arguments.
+
+## map
+The ```map``` function applies a function to each element in a sequence and returns a new sequence containing the transformed elements. The ```map``` function has the following syntax:
+```py
+map(function, iterable) # iterables - strings, lists, tuples, sets, and dictionaries
+```
+The function argument is a function that is applied to each element in the iterable argument. The iterable argument can be a list, tuple, or any other iterable object.
+
+Here is an example of how to use the map function:
+```py
+# List of numbers
+numbers = [1, 2, 3, 4, 5]
+# Double each number using the map function
+doubled = map(lambda x: x * 2, numbers)
+# Print the doubled numbers
+print(list(doubled)) # OUTPUT - [2, 4, 6, 8, 10]
+```
+In the above example, the lambda function ```lambda x: x * 2``` is used to double each element in the numbers list. The ```map``` function applies the lambda function to each element in the list and returns a new list containing the doubled numbers.
+
+## filter
+The ```filter``` function filters a sequence of elements based on a given **predicate (a function that returns a boolean value)** and returns a new sequence containing only the elements that meet the predicate. The ```filter``` function has the following syntax:
+```py
+filter(predicate, iterable)
+```
+The predicate argument is a function that returns a boolean value and is applied to each element in the iterable argument. The iterable argument can be a list, tuple, or any other iterable object.
+
+Here is an example of how to use the filter function:
+```py
+# List of numbers
+numbers = [1, 2, 3, 4, 5]
+# Get only the even numbers using the filter function
+evens = filter(lambda x: x % 2 == 0, numbers)
+# Print the even numbers
+print(list(evens)) # OUTPUT - [2, 4]
+```
+In the above example, the lambda function ```lambda x: x % 2 == 0``` is used to filter the numbers list and return only the even numbers. The filter function applies the lambda function to each element in the list and returns a new list containing only the even numbers.
+
+## reduce
+The reduce ```function``` is a higher-order function that applies a function to a sequence and **returns a single value**. It is a part of the ```functools``` module in Python and has the following syntax:
+```PY
+reduce(function, iterable)
+``` 
+The function argument is a function that takes in **two arguments** and returns a single value. The iterable argument is a sequence of elements, such as a list or tuple.
+
+The ```reduce``` function applies the function to the first two elements in the iterable and then applies the function to the result and the next element, and so on. The ```reduce``` function returns the final result.
+
+Here is an example of how to use the reduce function:
+```py
+from functools import reduce
+# List of numbers
+numbers = [1, 2, 3, 4, 5]
+# Calculate the sum of the numbers using the reduce function
+sum = reduce(lambda x, y: x + y, numbers)
+# Print the sum
+print(sum)
+```
+In the above example, the reduce function applies the lambda function ```lambda x, y: x + y``` to the elements in the ```numbers``` list. The lambda function adds the two arguments x and y and returns the result. The reduce function applies the lambda function to the first two elements in the list (1 and 2), then applies the function to the result=(3) and the next element (3), and so on. The final result is the sum of all the elements in the list, which is 15.
+
+> Note : It is important to note that the ```reduce``` function requires the ```functools``` module to be imported in order to use it.
 
 [**Jump to Index**](#table-of-contents)
 
