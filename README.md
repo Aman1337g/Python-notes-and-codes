@@ -54,7 +54,7 @@
 |50|['is' vs '==' in Python](#day-50---is-vs--in-python)|
 |51|[Exercise 5 : Snake Water Gun](#day-51---exercise-5--snake-water-gun)|
 |52|[Introduction to Object-oriented programming](#day-52---introduction-to-object-oriented-programming)|
-|53|[](#day53)|
+|53|[Python Class and Objects](#day-53---python-class-and-objects)|
 |54|[](#day54)|
 |55|[](#day55)|
 |56|[](#day56)|
@@ -3739,6 +3739,66 @@ Another key feature of OOP in Python is **inheritance**, which allows new classe
 **Polymorphism** is also supported in Python, which means that objects of different classes can be treated as if they were objects of a common class. This allows for greater flexibility in code and makes it easier to write code that can work with multiple types of objects.
 
 In summary, OOP in Python allows developers to model real-world concepts and entities using classes and objects, encapsulate data, reuse code through inheritance, and write more flexible code through polymorphism.
+
+[**Jump to Index**](#table-of-contents)
+
+<br>
+
+# Day 53 - Python Class and Objects
+
+A **class** is a blueprint or a template for creating objects, providing initial values for state (member variables or attributes), and implementations of behavior (member functions or methods). The user-defined objects are created using the **class** keyword.
+
+### Creating a Class:
+Let us now create a class using the ```class``` keyword.
+```py
+class Details:
+    name = "Rohan"
+    age = 20
+```
+### Creating an Object:
+Object is the instance of the class used to access the properties of the class. Now lets create an object of the class.
+
+Example:
+```py
+obj1 = Details()
+```
+Now we can print values:
+
+Example:
+```py
+class Details:
+    name = "Rohan Mohanty"
+    age = 20
+obj1 = Details()
+print(obj1.name)
+print(obj1.age)
+```
+Output:
+```
+Rohan Mohanty
+20
+```
+
+## self parameter
+
+The **self** parameter is a reference to the current instance of the class, and is used to access variables that belongs to the class.
+
+It must be provided as the extra parameter inside the method definition.
+
+Example:
+```py
+class Details:
+    name = "Adity Bikram Jena"
+    age = 20
+    def desc(self):
+        print("My name is", self.name, "and I'm", self.age, "years old.")
+obj1 = Details()
+obj1.desc()
+```
+Output:
+```
+My name is Adity Bikram Jena and I'm 20 years old.
+```
 
 [**Jump to Index**](#table-of-contents)
 
