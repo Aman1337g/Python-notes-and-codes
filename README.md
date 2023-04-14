@@ -52,8 +52,8 @@
 |48|[Lambda Functions in Python](#day-48---lambda-functions-in-python)|
 |49|[Map, Filter and Reduce](#day-49---map-filter-and-reduce)|
 |50|['is' vs '==' in Python](#day-50---is-vs--in-python)|
-|51|[](#day51)|
-|52|[](#day52)|
+|51|[Exercise 5 : Snake Water Gun](#day-51---exercise-5--snake-water-gun)|
+|52|[Introduction to Object-oriented programming](#day-52---introduction-to-object-oriented-programming)|
 |53|[](#day53)|
 |54|[](#day54)|
 |55|[](#day55)|
@@ -3709,11 +3709,36 @@ I hope this helps clarify the difference between ```is``` and ```==``` in Python
 
 <br>
 
-# Exercise 5 - Snake Water Gun
+# Day 51 - Exercise 5 : Snake Water Gun
 
 Snake, Water and Gun is a variation of the children's game "**rock-paper-scissors**" where players use hand gestures to represent a snake, water, or a gun. The gun beats the snake, the water beats the gun, and the snake beats the water. Write a python program to create a Snake Water Gun game in Python using if-else statements. Do not create any fancy GUI. Use proper functions to check for win.
 
 Create a pull request in Exercise 5 folder as [ **your_name.py** ] to submit your answers.
+
+[**Jump to Index**](#table-of-contents)
+
+<br>
+
+# Day 52 - Introduction to Object-oriented programming
+
+Introduction to Object-Oriented Programming in Python: In programming languages, mainly there are two approaches that are used to write program or code.
+
+1. Procedural Programming
+2. Object-Oriented Programming
+
+The procedure we are following till now is the “**Procedural Programming**” approach. So, in this session, we will learn about **Object Oriented Programming** (OOP). The basic idea of object-oriented programming (OOP) in Python is to use **classes** and **objects** to represent real-world concepts and entities.
+
+A **class** is a blueprint or template for creating objects. It defines the properties and methods that an object of that class will have. Properties are the data or state of an object, and methods are the actions or behaviors that an object can perform.
+
+An **object** is an instance of a class, and it contains its own data and methods. For example, you could create a class called "Person" that has properties such as name and age, and methods such as speak() and walk(). Each instance of the Person class would be a unique object with its own name and age, but they would all have the same methods to speak and walk.
+
+One of the key features of OOP in Python is **encapsulation**, which means that the internal state of an object is hidden and can only be accessed or modified through the object's methods. This helps to protect the object's data and prevent it from being modified in unexpected ways.
+
+Another key feature of OOP in Python is **inheritance**, which allows new classes to be created that inherit the properties and methods of an existing class. This allows for code reuse and makes it easy to create new classes that have similar functionality to existing classes.
+
+**Polymorphism** is also supported in Python, which means that objects of different classes can be treated as if they were objects of a common class. This allows for greater flexibility in code and makes it easier to write code that can work with multiple types of objects.
+
+In summary, OOP in Python allows developers to model real-world concepts and entities using classes and objects, encapsulate data, reuse code through inheritance, and write more flexible code through polymorphism.
 
 [**Jump to Index**](#table-of-contents)
 
