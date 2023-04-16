@@ -57,7 +57,7 @@
 |53|[Python Class and Objects](#day-53---python-class-and-objects)|
 |54|[Constructors](#day-54---constructors)|
 |55|[Decorators in Python](#day-55---decorators-in-python)|
-|56|[](#day56)|
+|56|[Getters and Setters](#day-56---getters-and-setters)|
 |57|[](#day57)|
 |58|[](#day58)|
 |59|[](#day59)|
@@ -3899,6 +3899,54 @@ In this example, the ```log_function_call``` decorator takes a function as an ar
 Decorators are a powerful and flexible feature in Python that can be used to add functionality to functions and methods without modifying their source code. They are a great tool for separating concerns, reducing code duplication, and making your code more readable and maintainable.
 
 In conclusion, python decorators are a way to extend the functionality of functions and methods, by modifying its behavior without modifying the source code. They are used for a variety of purposes, such as **logging**, **memoization**, **access control**, and more. They are a powerful tool that can be used to make your code more readable, maintainable, and extendable.
+
+[**Jump to Index**](#table-of-contents)
+
+<br>
+
+# Day 56 - Getters and Setters
+
+## Getters
+Getters in Python are methods that are used to access the values of an object's properties. They are used to return the value of a specific property, and are typically defined using the ```@property``` decorator. Here is an example of a simple class with a getter method:
+```py
+class MyClass:
+    def __init__(self, value):
+        self._value = value
+    @property
+    def value(self):
+        return self._value
+```
+In this example, the ```MyClass``` class has a single property, ```_value```, which is initialized in the ```init``` method. The ```value``` method is defined as a getter using the ```@property``` decorator, and is used to return the value of the ```_value``` property.
+
+To use the getter, we can create an instance of the ```MyClass``` class, and then access the ```value``` property as if it were an attribute:
+```py
+>>> obj = MyClass(10)
+>>> obj.value
+10
+```
+## Setters
+It is important to note that the getters do not take any parameters and we cannot set the value through getter method. For that we need setter method which can be added by decorating method with **@property_name.setter**
+
+Here is an example of a class with both getter and setter:
+```py
+class MyClass:
+    def __init__(self, value):
+        self._value = value
+    @property
+    def value(self):
+        return self._value
+    @value.setter
+    def value(self, new_value):
+        self._value = new_value
+```
+We can use setter method like this:
+```py
+>>> obj = MyClass(10)
+>>> obj.value = 20
+>>> obj.value
+20
+```
+In conclusion, getters are a convenient way to access the values of an object's properties, while keeping the internal representation of the property hidden. This can be useful for encapsulation and data validation.
 
 [**Jump to Index**](#table-of-contents)
 
