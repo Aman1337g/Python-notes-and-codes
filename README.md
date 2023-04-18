@@ -59,9 +59,9 @@
 |55|[Decorators in Python](#day-55---decorators-in-python)|
 |56|[Getters and Setters](#day-56---getters-and-setters)|
 |57|[Inheritance in python](#day-57---inheritance-in-python)|
-|58|[Exercise 6](#day-58---exercise-6)|
-|59|[](#day59)|
-|60|[](#day60)|
+|58|[Access Modifiers in Python]()|
+|59|[Exercise 6](#day-59---exercise-6)|
+|60|[Static Methods in Python](#day-60---static-methods-in-python)|
 |61|[](#day61)|
 |62|[](#day62)|
 |63|[](#day63)|
@@ -4131,11 +4131,28 @@ This function is in student 3.
 
 <br>
 
-# Day 58 - Exercise 6
+# Day 59 - Exercise 6
 
 Write a Library class with no_of_books and books as two instance variables. Write a program to create a library from this Library class and show how you can print all books, add a book and get the number of books using different methods. Show that your program doesnt persist the books after the program is stopped!
 
 Create a pull request in Exercise 6 folder as [ **your_name.py** ] to submit your answers.
+
+[**Jump to Index**](#table-of-contents)
+
+<br>
+
+# Day 60 - Static Methods in Python
+
+Static methods in Python are methods that belong to a class rather than an instance of the class. They are defined using the ```@staticmethod``` decorator and do not have access to the instance of the class (i.e. self). They are called on the class itself, not on an instance of the class. Static methods are often used to create utility functions that don't need access to instance data.
+```py
+class Math:
+    @staticmethod
+    def add(a, b):
+        return a + b
+result = Math.add(1, 2)
+print(result) # Output: 3
+```
+In this example, the **add** method is a static method of the **Math** class. It takes two parameters **a** and **b** and returns their sum. The method can be called on the class itself, without the need to create an instance of the class.
 
 [**Jump to Index**](#table-of-contents)
 
