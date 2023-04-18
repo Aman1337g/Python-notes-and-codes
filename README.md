@@ -59,7 +59,7 @@
 |55|[Decorators in Python](#day-55---decorators-in-python)|
 |56|[Getters and Setters](#day-56---getters-and-setters)|
 |57|[Inheritance in python](#day-57---inheritance-in-python)|
-|58|[](#day58)|
+|58|[Exercise 6](#day-58---exercise-6)|
 |59|[](#day59)|
 |60|[](#day60)|
 |61|[](#day61)|
@@ -4126,6 +4126,16 @@ This function is in student 1.
 This function is in student 2.
 This function is in student 3.
 ```
+
+[**Jump to Index**](#table-of-contents)
+
+<br>
+
+# Day 58 - Exercise 6
+
+Write a Library class with no_of_books and books as two instance variables. Write a program to create a library from this Library class and show how you can print all books, add a book and get the number of books using different methods. Show that your program doesnt persist the books after the program is stopped!
+
+Create a pull request in Exercise 6 folder as [ **your_name.py** ] to submit your answers.
 
 [**Jump to Index**](#table-of-contents)
 
