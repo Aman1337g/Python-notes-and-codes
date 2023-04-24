@@ -60,10 +60,10 @@
 |56|[Getters and Setters](#day-56---getters-and-setters)|
 |57|[Inheritance in python](#day-57---inheritance-in-python)|
 |58|[Access Modifiers in Python](#day-58---access-modifiers-in-python)|
-|59|[Exercise 6](#day-59---exercise-6)|
+|59|[Exercise 6 : Library Management System](#day-59---exercise-6)|
 |60|[Static Methods in Python](#day-60---static-methods-in-python)|
 |61|[Instance vs class variables](#day-61---instance-vs-class-variables)|
-|62|[](#day62)|
+|62|[Exercise 7 : Clear the Clutter](#day-62---exercise-7--clear-the-clutter)|
 |63|[](#day63)|
 |64|[](#day64)|
 |65|[](#day65)|
@@ -4250,7 +4250,7 @@ AmanKumarGupta@
 
 <br>
 
-# Day 59 - Exercise 6
+# Day 59 - Exercise 6 : Library Management System
 
 Write a Library class with no_of_books and books as two instance variables. Write a program to create a library from this Library class and show how you can print all books, add a book and get the number of books using different methods. Show that your program doesnt persist the books after the program is stopped!
 
@@ -4320,6 +4320,22 @@ In the example above, each instance of the class ```MyClass``` has its own value
 In summary, class variables are shared among all instances of a class and are used to store information that is common to all instances. Instance variables are unique to each instance of a class and are used to store information that is specific to each instance. Understanding the difference between class variables and instance variables is crucial for writing efficient and maintainable code in Python.
 
 It's also worth noting that, in python, class variables are defined outside of any methods and don't need to be explicitly declared as class variable. They are defined in the class level and can be accessed via ```classname.varibale_name``` or ```self.__class__.variable_name```. But instance variables are defined inside the methods and need to be explicitly declared as instance variable by using ```self.variable_name```.
+
+[**Jump to Index**](#table-of-contents)
+
+<br>
+
+# Day 62 - Exercise 7 : Clear the Clutter
+
+Write a program to clear the clutter inside a folder on your computer. You should use ```os``` module to rename all the ```png``` images from **1.png** all the way till **n.png** where **n** is the number of ```png``` files in that folder. Do the same for other file formats. For example:
+
+- sfdsf.png --> 1.png
+- vfsf.png --> 2.png
+- this.png --> 3.png
+- design.png --> 4.png
+- name.png --> 5.png
+
+Create a pull request in Exercise 6 folder as [ **your_name.py** ] to submit your answers.
 
 [**Jump to Index**](#table-of-contents)
 
