@@ -9,6 +9,9 @@ class Student:
     @classmethod
     def fromStr(cls, string):   # class method as constructor
         return cls(string.split(',')[0], int(string.split(',')[1]))
+        # # Method 2
+        # name, age = string.split(',')
+        # return cls(name, int(age))
 
 
 s1 = Student('Aman Kumar Gupta', 89)
