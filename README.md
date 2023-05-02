@@ -70,7 +70,7 @@
 |66|[Super keyword in Python](#day-66---super-keyword-in-python)|
 |67|[Magic/Dunder Methods in Python](#day-67---magicdunder-methods-in-python)|
 |68|[Method Overriding in Python](#day-68---method-overriding-in-python)|
-|69|[](#day69)|
+|69|[Exercise 8 : Merge the PDF](#day-69---exercise-8--merge-the-pdf)|
 |70|[](#day70)|
 |71|[](#day71)|
 |72|[](#day72)|
@@ -4616,3 +4616,16 @@ In conclusion, method overriding is a powerful feature in Python that allows you
 [**Jump to Index**](#table-of-contents)
 
 <br>
+
+# Day 69 - Exercise 8 : Merge the PDF
+
+Write a program to manipulate pdf files using pyPDF. Your programs should be able to merge multiple pdf files into a single pdf. You are welcome to add more functionalities
+
+pypdf is a free and open-source pure-python PDF library capable of splitting, merging, cropping, and transforming the pages of PDF files. It can also add custom data, viewing options, and passwords to PDF files. pypdf can retrieve text and metadata from PDFs as well.
+
+Create a pull request in Exercise 8 folder as [ **your_name.py** ] to submit your answers.
+
+[**Jump to Index**](#table-of-contents)
+
+<br>
+
