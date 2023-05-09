@@ -6,11 +6,11 @@
 |02|[Why I love python (And you will too...)](#day-2---why-i-love-python-and-you-will-too)|
 |03|[Modules and pip in Python!](#day-3---modules-and-pip-in-python)|
 |04|[Our First Program](#day-4---our-first-program)|
-|5|[Comments, Escape sequence & Print in Python](#day-5---comments-escape-sequence--print-in-python)|
-|6|[Variables and Data Types](#day-6---variables-and-data-types)|
-|7|[Exercise 1: Calculator using Python](#day-07---exercise-1-calculator-using-python)|
-|8|[Typecasting in python](#day-08---typecasting-in-python)|
-|9|[Taking User Input in python](#day-09---taking-user-input-in-python)|
+|05|[Comments, Escape sequence & Print in Python](#day-5---comments-escape-sequence--print-in-python)|
+|06|[Variables and Data Types](#day-6---variables-and-data-types)|
+|07|[Exercise 1: Calculator using Python](#day-07---exercise-1-calculator-using-python)|
+|08|[Typecasting in python](#day-08---typecasting-in-python)|
+|09|[Taking User Input in python](#day-09---taking-user-input-in-python)|
 |10|[Strings](#day-10---strings)|
 |11|[String Slicing & Operations on String](#day-11---string-slicing--operations-on-string)|
 |12|[String methods](#day-12---string-methods)|
