@@ -73,7 +73,7 @@
 |69|[Exercise 8 : Merge the PDF](#day-69---exercise-8--merge-the-pdf)|
 |70|[Operator Overloading in Python: An Introduction](#day-70---operator-overloading-in-python-an-introduction)|
 |71|[Single Inheritance in Python](#day-71---single-inheritance-in-python)|
-|72|[](#day72)|
+|72|[Multiple Inheritance in Python](#day-72---multiple-inheritance-in-python)|
 |73|[](#day73)|
 |74|[](#day74)|
 |75|[](#day75)|
@@ -4703,6 +4703,51 @@ class Dog(Animal):
 The Dog class inherits all the attributes and behaviors of the Animal class, including the ```__init__``` method and the ```make_sound``` method. Additionally, the ```Dog``` class has its own ```__init__``` method that adds a new attribute for the breed of the dog, and it also overrides the ```make_sound``` method to specify the sound that a dog makes.
 
 Single inheritance is a powerful tool in Python that allows you to create new classes based on existing classes. It allows you to reuse code, extend it to fit your needs, and make it easier to manage complex systems. Understanding single inheritance is an important step in becoming proficient in object-oriented programming in Python.
+
+[**Jump to Index**](#table-of-contents)
+
+<br>
+
+# Day 72 - Multiple Inheritance in Python
+Multiple inheritance is a powerful feature in object-oriented programming that allows a class to inherit attributes and methods from **multiple parent classes**. This can be useful in situations where a class needs to inherit functionality from multiple sources.
+
+## Syntax
+In Python, multiple inheritance is implemented by specifying multiple parent classes in the class definition, separated by commas.
+```py
+class ChildClass(ParentClass1, ParentClass2, ParentClass3, ...):
+    # class body
+```
+In this example, the `ChildClass` inherits attributes and methods from all three parent classes: ParentClass1, ParentClass2, and ParentClass3, ...and so on.
+
+It's important to note that, in case of multiple inheritance, Python follows a **method resolution order (MRO)** to resolve conflicts between methods or attributes from different parent classes. The MRO determines the order in which parent classes are searched for attributes and methods.
+
+### Example
+```py
+class Animal:
+    def __init__(self, name, species):
+        self.name = name
+        self.species = species
+        
+    def make_sound(self):
+        print("Sound made by the animal")
+        
+class Mammal:
+    def __init__(self, name, fur_color):
+        self.name = name
+        self.fur_color = fur_color
+        
+class Dog(Animal, Mammal):
+    def __init__(self, name, breed, fur_color):
+        Animal.__init__(self, name, species="Dog")
+        Mammal.__init__(self, name, fur_color)
+        self.breed = breed
+        
+    def make_sound(self):
+        print("Bark!")
+```
+In this example, the `Dog` class inherits from both the `Animal` and `Mammal` classes, so it can use attributes and methods from both parent classes.
+
+[**Jump to Index**](#table-of-contents)
 
 <br>
 
