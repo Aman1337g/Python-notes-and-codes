@@ -77,7 +77,7 @@
 |73|[Multilevel Inheritance in Python](#day-73---multilevel-inheritance-in-python)|
 |74|[Hybrid Inheritance in Python](#day-74---hybrid-inheritance-in-python)|
 |75|[Hierarchial Inheritance in Python](#day-75---hierarchical-inheritance-in-python)|
-|76|[](#day76)|
+|76|[Exercise 9 : Shoutouts to Everyone](#day-76---exercise-9--shoutouts-to-everyone)|
 |77|[](#day77)|
 |78|[](#day78)|
 |79|[](#day79)|
@@ -4942,6 +4942,26 @@ Color: Black
 As we can see from the outputs, the `Dog` and `Cat` classes have inherited the attributes and methods of the `Animal` class, and have also added their own unique attributes and methods.
 
 In conclusion, hierarchical inheritance is a way of establishing relationships between classes in a hierarchical manner. It allows multiple subclasses to inherit from a single base class, which helps in code reuse and organization of code in a more structured manner.
+
+[**Jump to Index**](#table-of-contents)
+
+<br>
+
+# Day 76 - Exercise 9 : Shoutouts to Everyone
+
+Write a program to pronounce list of names using **win32 API**. If you are given a list l as follows:
+```py
+l = ["Rahul Gandhi", "Nishant", "Aman Kumar Gupta"]
+```
+Your program should pronouce:
+```
+Shoutout to Rahul Gandhi
+Shoutout to Nishant
+Shoutout to Aman Kumar Gupta
+```
+> Note: If you are not using windows, try to figure out how to do the same thing using some other package
+
+Create a pull request in Exercise 9 folder as [ **your_name.py** ] to submit your answers.
 
 [**Jump to Index**](#table-of-contents)
 
