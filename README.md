@@ -79,7 +79,7 @@
 |75|[Hierarchial Inheritance in Python](#day-75---hierarchical-inheritance-in-python)|
 |76|[Exercise 9 : Shoutouts to Everyone](#day-76---exercise-9--shoutouts-to-everyone)|
 |77|[The time Module in Python](#day-77---the-time-module-in-python)|
-|78|[](#day78)|
+|78|[Creating Command Line Utilities in Python](#day-78---creating-command-line-utilities-in-python)|
 |79|[](#day79)|
 |80|[](#day80)|
 |81|[](#day81)|
@@ -5006,6 +5006,64 @@ As you can see, the function `time.strftime()` formats the current time (obtaine
 
 ## Conclusion
 The `time` module in Python provides a set of functions to work with time-related operations, such as timekeeping, formatting, and time conversions. Whether you are writing a script, a library, or an application, the time module is a powerful tool that can help you perform time-related tasks with ease and efficiency. So, if you haven't already, be sure to check out the time module in Python and see how it can help you write better, more efficient code.
+
+[**Jump to Index**](#table-of-contents)
+
+<br>
+
+# Day 78 - Creating Command Line Utilities in Python
+Command line utilities are programs that can be run from the terminal or command line interface, and they are an essential part of many development workflows. In Python, you can create your own command line utilities using the built-in `argparse` module.
+
+## Syntax
+Here is the basic syntax for creating a command line utility using argparse in Python:
+```py
+import argparse
+
+parser = argparse.ArgumentParser()
+# Add command line arguments
+parser.add_argument("arg1", help="description of argument 1")
+parser.add_argument("arg2", help="description of argument 2")
+# Parse the arguments
+args = parser.parse_args()
+# Use the arguments in your code
+print(args.arg1)
+print(args.arg2)
+```
+### Examples
+Here are a few examples to help you get started with creating command line utilities in Python:
+
+#### Adding optional arguments
+The following example shows how to add an optional argument to your command line utility:
+```py
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-o", "--optional", help="description of optional argument", default="default_value")
+args = parser.parse_args()
+print(args.optional)
+```
+#### Adding positional arguments
+The following example shows how to add a positional argument to your command line utility:
+```py
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("positional", help="description of positional argument")
+args = parser.parse_args()
+print(args.positional)
+```
+#### Adding arguments with type
+The following example shows how to add an argument with a specified type:
+```py
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-n", type=int, help="description of integer argument")
+args = parser.parse_args()
+print(args.n)
+```
+## Conclusion
+Creating command line utilities in Python is a straightforward and flexible process thanks to the `argparse` module. With a few lines of code, you can create powerful and customizable command line tools that can make your development workflow easier and more efficient. Whether you're working on small scripts or large applications, the `argparse` module is a must-have tool for any Python developer.
 
 [**Jump to Index**](#table-of-contents)
 
