@@ -82,7 +82,7 @@
 |78|[Creating Command Line Utilities in Python](#day-78---creating-command-line-utilities-in-python)|
 |79|[The Walrus Operator in Python](#day-79---the-walrus-operator-in-python)|
 |80|[Shutil Module in Python](#day-80---shutil-module-in-python)|
-|81|[](#day81)|
+|81|[Requests module in python](#day-81---requests-module-in-python)|
 |82|[](#day82)|
 
 
@@ -5151,6 +5151,45 @@ shutil.rmtree("dir")
 As you can see, the `shutil` module provides a simple and efficient way to perform common file and directory-related tasks in Python. Whether you need to copy, move, delete, or preserve metadata about files and directories, the shutil module has you covered.
 
 In conclusion, the `shutil` module is a powerful tool for automating file and directory-related tasks in Python. Whether you are a beginner or an experienced Python developer, the shutil module is an essential tool to have in your toolbox.
+
+[**Jump to Index**](#table-of-contents)
+
+<br>
+
+# Day 81 - Requests module in python
+The Python Requests module is an HTTP library that enables developers to send HTTP requests in Python. This module enables you to send HTTP requests using Python code and makes it possible to interact with APIs and web services.
+
+## Installation
+```py
+pip install requests
+```
+## Get Request
+Once you have installed the Requests module, you can start using it to send HTTP requests. Here is a simple example that sends a GET request to the Google homepage:
+```py
+import requests
+response = requests.get("https://www.google.com")
+print(response.text)
+```
+## Post Request
+Here is another example that sends a POST request to a web service and includes a custom header:
+```py
+import requests
+url = "https://api.example.com/login"
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36",
+    "Content-Type": "application/json"
+}
+data = {
+    "username": "myusername",
+    "password": "mypassword"
+}
+response = requests.post(url, headers=headers, json=data)
+print(response.text)
+```
+In this example, we send a POST request to a web service to authenticate a user. We include a custom User-Agent header and a JSON payload with the user's credentials.
+
+## bs4 Module
+There is another module called BeautifulSoup which is used for web scraping in Python.
 
 [**Jump to Index**](#table-of-contents)
 
