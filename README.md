@@ -83,7 +83,7 @@
 |79|[The Walrus Operator in Python](#day-79---the-walrus-operator-in-python)|
 |80|[Shutil Module in Python](#day-80---shutil-module-in-python)|
 |81|[Requests module in python](#day-81---requests-module-in-python)|
-|82|[](#day82)|
+|82|[Exercise 10: News App in Python](#day-82---exercise-10-news-app-in-python)|
 
 
 
@@ -5190,6 +5190,16 @@ In this example, we send a POST request to a web service to authenticate a user.
 
 ## bs4 Module
 There is another module called BeautifulSoup which is used for web scraping in Python.
+
+[**Jump to Index**](#table-of-contents)
+
+<br>
+
+# Day 82 - Exercise 10: News App in Python
+
+Use the NewsAPI apd the requests module to fetch the daily news related to different topics. Go to: https://newsapi.org/ and explore the various options to build your application.
+
+Create a pull request in Exercise 10 folder as [ **your_name.py** ] to submit your answers.
 
 [**Jump to Index**](#table-of-contents)
 
