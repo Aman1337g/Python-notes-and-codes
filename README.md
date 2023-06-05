@@ -85,7 +85,7 @@
 |81|[Requests module in python](#day-81---requests-module-in-python)|
 |82|[Exercise 10: News App in Python](#day-82---exercise-10-news-app-in-python)|
 |83|[Generators in Python](#day-83---generators-in-python)|
-|84|[](#day84)|
+|84|[Function Caching in Python](#day-84---function-caching-in-python)|
 |85|[](#day85)|
 |86|[](#day86)|
 |87|[](#day87)|
@@ -5271,6 +5271,39 @@ Another benefit of generators is that they are lazy, which means that the values
 
 ## Conclusion
 Generators in Python are a powerful tool for working with large or complex data sets, allowing you to generate the values on-the-fly and store only what you need in memory. Whether you are working with a large dataset, performing complex calculations, or generating a sequence of values, generators are a must-have tool in your programming toolkit. So, if you haven't already, be sure to check out generators in Python and see how they can help you write better, more efficient code.
+
+[**Jump to Index**](#table-of-contents)
+
+<br>
+
+# Day 84 - Function Caching in Python
+
+Function caching is a technique for improving the performance of a program by storing the results of a function call so that you can reuse the results instead of recomputing them every time the function is called. This can be particularly useful when a function is computationally expensive, or when the inputs to the function are unlikely to change frequently.
+
+In Python, function caching can be achieved using the **functools.lru_cache** decorator. The **functools.lru_cache** decorator is used to cache the results of a function so that you can reuse the results instead of recomputing them every time the function is called. Here's an example:
+
+```py
+import functools
+import time
+
+@functools.lru_cache(maxsize=None)
+def fibo(n):
+    if n<2:
+        return n
+    else:
+        return fibo(n-1)+fibo(n-2)
+
+print(fibo(20))
+print(fibo(20))
+print(fibo(20))
+print(fibo(2))
+
+# Output
+# 6765
+# 6765
+# 6765
+# 1
+```
 
 [**Jump to Index**](#table-of-contents)
 
