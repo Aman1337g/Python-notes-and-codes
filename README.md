@@ -86,7 +86,7 @@
 |82|[Exercise 10: News App in Python](#day-82---exercise-10-news-app-in-python)|
 |83|[Generators in Python](#day-83---generators-in-python)|
 |84|[Function Caching in Python](#day-84---function-caching-in-python)|
-|85|[](#day85)|
+|85|[Exercise 11 : Drink Water Reminder](#day-85---exercise-11--drink-water-reminder)|
 |86|[](#day86)|
 |87|[](#day87)|
 |88|[](#day88)|
@@ -5304,6 +5304,16 @@ print(fibo(2))
 # 6765
 # 1
 ```
+
+[**Jump to Index**](#table-of-contents)
+
+<br>
+
+# Day 85 - Exercise 11 : Drink Water Reminder
+
+Write a python program which reminds you of drinking water every hour or two. Your program can either beep or send desktop notifications for a specific operating system.
+
+Create a pull request in Exercise 11 folder as [ **your_name.py** ] to submit your answers.
 
 [**Jump to Index**](#table-of-contents)
 
