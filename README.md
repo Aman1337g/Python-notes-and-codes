@@ -88,7 +88,7 @@
 |84|[Function Caching in Python](#day-84---function-caching-in-python)|
 |85|[Exercise 11 : Drink Water Reminder](#day-85---exercise-11--drink-water-reminder)|
 |86|[Regular Expressions in Python](#day-86---regular-expressions-in-python)|
-|87|[](#day87)|
+|87|[Async IO in Python](#day-87---async-io-in-python)|
 |88|[](#day88)|
 |89|[](#day89)|
 |90|[](#day90)|
@@ -5404,3 +5404,35 @@ Regular expressions are a powerful tool for working with strings and text data i
 [**Jump to Index**](#table-of-contents)
 
 <br>
+
+# Day 87 - Async IO in Python
+
+Asynchronous I/O, or async for short, is a programming pattern that allows for high-performance I/O operations in concurrent and non-blocking manner. In Python, async programming is achieved through the use of the `asyncio` module and asynchronous functions.
+
+## Syntax
+Here is the basic syntax for creating an asynchronous function in Python:
+```py
+import asyncio
+
+async def my_async_function():
+    # asynchronous code here
+    await asyncio.sleep(1)
+    return "Hello, Async World!"
+async def main():
+    result = await my_async_function()
+    print(result)
+asyncio.run(main())
+```
+Another way to schedule tasks concurrently is as follows:
+```py
+L = await asyncio.gather(
+        my_async_function(),
+        my_async_function(),
+        my_async_function(),
+    )
+print(L)
+```
+Async IO is a powerful programming pattern that allows for high-performance and concurrent I/O operations in Python. With the `asyncio` module and asynchronous functions, you can write efficient and scalable code that can handle large amounts of data and I/O operations without blocking the main thread. Whether you're working on web applications, network services, or data processing pipelines, async IO is an essential tool for any Python developer.
+
+<br>
+
