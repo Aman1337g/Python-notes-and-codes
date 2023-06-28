@@ -91,18 +91,7 @@
 |87|[Async IO in Python](#day-87---async-io-in-python)|
 |88|[Multithreading in Python](#day-88---multithreading-in-python)|
 |89|[Multiprocessing in Python](#day-89---multiprocessing-in-python)|
-|90|[](#day90)|
-|91|[](#day91)|
-|92|[](#day92)|
-|93|[](#day93)|
-|94|[](#day94)|
-|95|[](#day95)|
-|96|[](#day96)|
-|97|[](#day97)|
-|98|[](#day98)|
-|99|[](#day99)|
-|100|[](#day100)|
-
+|90|[Conclusion](#day-90---conclusion)|
 
 
 # Day 1 - What is Programming and Python?
@@ -112,7 +101,7 @@ If I ask you to calculate 5+6, you will immediately say 11.
 How about 23453453 X 56456?
 
 You will start searching for a calculator or jump to a new tab to calculate the same. <br>
-This 100 days of code series will help you learn python from starting to the end. We will start from 0 and by the time we end this course, I promise you will be a Job ready Python developer!
+This 90 days of code series will help you learn python from starting to the end. We will start from 0 and by the time we end this course, I promise you will be a Job ready Python developer!
 
 ## What is Python?
 
@@ -201,7 +190,7 @@ Please make sure you attempt this. Might be easy for some of you but please fini
 
 # Day 5 - Comments, Escape sequence & Print in Python
 
-Welcome to Day 5 of 100DaysOfCode. Today we will talk about Comments, Escape Sequences and little bit more about print statement in Python. We will also throw some light on Escape Sequences.
+Welcome to Day 5 of 90DaysOfCode. Today we will talk about Comments, Escape Sequences and little bit more about print statement in Python. We will also throw some light on Escape Sequences.
 
 ## Python Comments
 
@@ -5609,3 +5598,28 @@ In conclusion, the multiprocessing module is a powerful tool for parallelizing c
 [**Jump to Index**](#table-of-contents)
 
 <br>
+
+# Day 90 - Conclusion
+
+Congratulations on completing the 90 days of Python code challenge! You have likely gained a solid foundation in the language and developed a range of skills, from basic syntax to more advanced concepts such as object-oriented programming. However, this is just the beginning of your journey with Python. There are many more topics to explore, including machine learning, web development, game development, and more.
+
+## Where to go from here:
+To continue your learning journey, consider exploring the following resources:
+
+- Python books: There are many excellent books on Python that can help you deepen your knowledge and skills. Some popular options include "Python Crash Course" by Eric Matthes, "Automate the Boring Stuff with Python" by Al Sweigart, and "Fluent Python" by Luciano Ramalho. I would also like to recommend "Hands on Machine Learning book by Aurélien Géron".
+
+- YouTube Projects: There are many YouTube projects available which can be watched after you have some basic understanding of python.
+
+- Python communities: There are many online communities where you can connect with other Python learners and experts, ask questions, and share your knowledge. Some popular options include the Python subreddit, the Python Discord server, and the Python community on Stack Overflow.
+
+- GitHub repositories: GitHub is a great resource for finding Python projects, libraries, and code snippets. Some useful repositories to check out include "awesome-python" (a curated list of Python resources), "scikit-learn" (a machine learning library), and "django" (a web development framework).
+
+## Link to some resources
+
+- Tkinter - You can learn Tkinter which is used to create GUIs from [here](https://www.cs.mcgill.ca/~hv/classes/MS/TkinterPres/#Overview).
+- Machine Learning - I loved [this](https://www.youtube.com/watch?v=cKxRvEZd3Mw&list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal) playlist from Google Developers.
+- Django - For Django, try the [tutorial](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) from the official documentation. Trust me it's really good.
+
+Overall, the key to mastering Python (or any programming language) is to keep practicing and experimenting. Set yourself challenges, work on personal projects, and stay curious. Good luck!
+
+[**Jump to Index**](#table-of-contents)
