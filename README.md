@@ -3157,8 +3157,10 @@ pip install virtualenv
 ```
 ```py
 ## Create a virtual environment
+
+# using venv module backed into python
 python -m venv myenv
-# or
+# or by installing virtualenv package
 virtualenv environment_name
 
 # Activate the virtual environment (Linux/macOS)
